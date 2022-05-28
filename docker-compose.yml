@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+  web:
+    container_name: ruby-pro
+    build: ./
+    volumes:
+      - ./src:/workdir
+    tty: true

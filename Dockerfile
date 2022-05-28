@@ -1,8 +1,8 @@
 FROM ruby:3.0
 
-WORKDIR /ruby-pro
+WORKDIR /workdir
 
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
-COPY ./ruby-pro ./ruby-pro
+COPY ./src /workdir
