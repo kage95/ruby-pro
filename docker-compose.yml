@@ -4,5 +4,5 @@ services:
     container_name: ruby-pro
     build: ./
     volumes:
-      - ./src:/workdir
+      - ./ruby-book:/workdir
     tty: true

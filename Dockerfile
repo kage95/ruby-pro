@@ -5,4 +5,4 @@ WORKDIR /workdir
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
-COPY ./src /workdir
+COPY ./ruby-book /workdir
